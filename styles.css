@@ -1,0 +1,106 @@
+header{
+    background-color: aquamarine;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+body{
+    margin: 0;
+    font-size: 20px;
+    background-color: rgb(221, 255, 244);
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: monospace;
+}
+form div{
+    margin: 6px 0;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    border:none ;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px ;
+    
+    align-items: center;
+}
+.button:hover{
+    background-color: rgb(55, 230, 171);
+    color: black;
+}
+h1{
+    color: rgb(69, 218, 168);
+    font-size: 50px;
+}
+header h1{
+    color: black;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+main{
+    padding:20px
+
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    border:none ;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:rgb(69, 218, 168) ;
+}
+.submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+input{
+    border-radius: 5px;
+    height: 20px;
+    border:2px solid gray ;
+}
+.topbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black ;
+    background-color:rgb(69, 218, 168);
+}
+footer{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
