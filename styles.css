@@ -30,7 +30,7 @@ form div{
     border-radius: 20px;
     cursor: pointer;
     margin: 15px ;
-    
+    transition: all 1s ease 0s;
     align-items: center;
 }
 .button:hover{
@@ -69,8 +69,9 @@ section{
     width: 100px;
     border:none ;
     border-radius: 25px;
-    cursor: pointer;
-    background-color:rgb(69, 218, 168) ;
+    cursor: pointer; 
+    background-color:rgb(69, 218, 168) ; 
+    
 }
 .submit:hover{
     background-color: rgb(255, 255, 255);
